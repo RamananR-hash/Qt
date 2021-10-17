@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/rsc">
+        <file>icons png/icon png files.png</file>
+        <file>icons png/pin.png</file>
+        <file>icons png/setings.png</file>
+    </qresource>
+</RCC>
