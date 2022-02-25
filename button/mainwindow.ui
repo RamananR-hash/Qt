@@ -13,25 +13,28 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(84, 84, 84);</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>120</y>
+      <x>379</x>
+      <y>160</y>
       <width>161</width>
       <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">
+     <string notr="true"> border-width: 3px;
+border-style: solid;
+border-top-color: rgb(255, 29, 29);
+background-color: qlineargradient(spread:pad, x1:0.477398, y1:0.108, x2:0.532854, y2:1, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+qproperty-icon: url(:/Untitled Diagram.png);
 
+qproperty-iconSize: 40px;
 
-    color: #333;
-    border: 4px solid #555;
-    border-radius: 10px;
-    border-style: outset;
-    border-color:rgb(0,255,127);
 </string>
     </property>
     <property name="text">
@@ -45,7 +48,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>21</height>
+     <height>20</height>
     </rect>
    </property>
   </widget>
