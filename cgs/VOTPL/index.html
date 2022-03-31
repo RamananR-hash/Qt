@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+
+</style>
+<div id="googleMap3" style="width:620px;height:604px;margin:0px;background-color:black;position:fixed;top:0px;left:0px;"></div>
+
+<script>
+function myMap() {
+
+  var mapOptions3 = {
+    center: new google.maps.LatLng(12.891529321236547, 80.17798537686299),
+    zoom:20,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+
+  };
+
+
+  var map3 = new google.maps.Map(document.getElementById("googleMap3"),mapOptions3);
+
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=myMap"></script>
+</body>
+</html>
